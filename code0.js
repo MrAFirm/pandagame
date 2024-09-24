@@ -28,7 +28,7 @@ gdjs.Game_32SceneCode.asyncCallback11280076 = function (runtimeScene, asyncObjec
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Game_32SceneCode.localVariables);
 gdjs.copyArray(runtimeScene.getObjects("Log"), gdjs.Game_32SceneCode.GDLogObjects2);
 {for(var i = 0, len = gdjs.Game_32SceneCode.GDLogObjects2.length ;i < len;++i) {
-    gdjs.Game_32SceneCode.GDLogObjects2[i].getBehavior("Text").setText("BambooCount: " + gdjs.evtTools.common.toString(runtimeScene.getScene().getVariables().getFromIndex(3).getAsNumber()));
+    gdjs.Game_32SceneCode.GDLogObjects2[i].getBehavior("Text").setText("Bamboo: " + gdjs.evtTools.common.toString(runtimeScene.getScene().getVariables().getFromIndex(3).getAsNumber()));
 }
 }{runtimeScene.getGame().getVariables().getFromIndex(0).setNumber(gdjs.evtTools.common.toNumber(runtimeScene.getScene().getVariables().getFromIndex(3).getAsString()));
 }gdjs.Game_32SceneCode.localVariables.length = 0;
